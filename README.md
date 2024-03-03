@@ -20,4 +20,4 @@ HTML, CSS, JavaScript
 
 ## 實際頁面
 
-![image](https://github.com/Alex900806/Hawaii-Journey-website/blob/main/demo_pictures/demo1.png)
+![image](https://github.com/Alex900806/Snake-Game/blob/main/demo_pictures/snake.jpg)
