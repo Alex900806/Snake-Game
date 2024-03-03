@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Serif Display", serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  div.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(15, 6, 23);
+    opacity: 0.9;
+    z-index: -5;
+  }
+
+  #myCanvas {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #050a0f;
+    border: 5px solid rgb(162, 118, 203);
+  }
+
+  #myScore,
+  #highScore {
+    color: rgb(162, 118, 203);
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+  }
+
+  #start {
+    display: block;
+    padding: 0.25rem 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.35rem;
+    background-color: rgb(114, 89, 175);
+    color: azure;
+    transition: all 0.5s ease;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

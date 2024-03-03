@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="" />
+    <meta name="author" content="Lexie" />
+    <title>Snake Game</title>
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/flat-round/64/snake--v1.png"
+    />
+    <link
+      rel="bookmark"
+      href="https://img.icons8.com/flat-round/64/snake--v1.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Sans+TC:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/title.css" />
+  </head>
+  <body>
+    <div class="background"></div>
+
+    <div class="title">
+      <main class="text-container">
+        <svg
+          class="text-stroke"
+          viewBox="0 0 500 100"
+          width="80%"
+          height="100%"
+        >
+          <text class="text" x="0" y="75">SNAKE GAME</text>
+        </svg>
+      </main>
+    </div>
+
+    <canvas id="myCanvas" width="1280" height="320"></canvas>
+
+    <p id="myScore"></p>
+    <p id="highScore"></p>
+
+    <button type="button" id="start" onClick="location.reload()">
+      Start A New Game
+    </button>
+
+    <script src="app.js"></script>
+    <script src="title.js"></script>
+  </body>
+</html>
